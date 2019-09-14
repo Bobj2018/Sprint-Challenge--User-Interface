@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
 Semantic HTML allows you to organize your HTML so that it is easy to read and for the browser, like chrome, to understand. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-Block level elements are like boxes "stacked" on top of each other while, inline elements are like boxes right to each other.
+Block level elements are boxes "stacked" on top of each other while, inline elements are boxes right to each other.
 
 3. What are the 4 areas of the box model?
 Content, Padding, Border, Margin
