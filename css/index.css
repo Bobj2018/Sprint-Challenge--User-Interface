@@ -157,22 +157,33 @@ p {
 	margin: 0 auto;
 }
 
+h1 {
+	font-size: 26px;
+}
+
 header {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	margin: 22.5px 0;
 }
 
 nav {
 	display: flex;
 	width: 80%;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 nav a {
 	text-decoration: none;
 	color: black;
 	font-size: 14px;
+	padding: 15px;
+	transition: color 1s, background 0.5s;
+}
+
+nav a:hover {
+	background: black;
+	color: white;
 }
 
 .jumbo-img {
@@ -295,9 +306,6 @@ footer nav a {
 }
 
 /* about page */
-.jumbo-about-img {
-	margin: 22.5px 0;
-}
 
 .about {
 	border-bottom: black dashed 1px;
@@ -340,4 +348,37 @@ footer nav a {
 
 .together {
 	padding: 0 15px 26px 15px;
+}
+
+.jumbo-about-img {
+	margin: 22.5px 0;
+	width: 100%;
+}
+
+/* STRETCH */
+
+form {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin-bottom: 22.5px;
+}
+
+form input {
+	margin: 10px;
+	padding: 5px;
+	height: 35px;
+	border-radius: 10px;
+}
+
+input[type="submit"] {
+	width: 50%;
+	align-self: center;
+	font-weight: bold;
+}
+
+.first-last {
+	display: flex;
+	justify-content: space-between;
 }
